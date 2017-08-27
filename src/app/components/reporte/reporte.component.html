@@ -1,0 +1,102 @@
+
+  <h3 class="main-container">Reporte de Evaluacion Dual</h3>
+  <hr>
+
+  <form class="" action="index.html" method="post">
+    <div class="form-group main-container">
+      <div class="col-md-5">
+        <label for="alumno"><b>Nombre del Alumno:</b> {{alumno}}</label>
+      </div>
+      <div class="col-md-5">
+        <label for="matricula"><b>Matricula:</b> {{matricula}}</label>
+      </div>
+      <div class="col-md-4">
+          <label for="semestre"><b>Semestre:</b>{{semestre}}</label>
+      </div>
+      <div class="col-md-6">
+          <label for="empresa"><b>Empresa:</b>{{empresa}}</label>
+      </div>
+      <div class="col-md-5">
+        <label for="instructor"><b>Nombre del Instructor:</b>{{instructor}}</label>
+      </div>
+      <div class="col-md-9">
+        <label for="periodo"><b>Periodo:</b></label>
+        <div class="input-group col-md-4 ">
+          <span class="input-group-addon"></span>
+          <input type="text" class="form-control mr-1" placeholder="Del">
+          <span class="input-group-addon"></span>
+          <input type="text" class="form-control " placeholder="Al">
+        </div>
+      </div><br>
+
+      <table class="table table-striped">
+  <thead>
+    <tr>
+      <th>Competencias</th>
+      <th>Muy Bueno</th>
+      <th>Bueno</th>
+      <th>Regular</th>
+      <th>Malo</th>
+      <th>Muy Malo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1. Competencia</th>
+
+      <td>
+        <label class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input">
+        <span class="custom-control-indicator"></span>
+        <span class="custom-control-description"></span>
+        </label>
+      </td>
+      <td>
+        <label class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input">
+        <span class="custom-control-indicator"></span>
+        <span class="custom-control-description"></span>
+        </label>
+      </td>
+      <td>
+        <label class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input">
+        <span class="custom-control-indicator"></span>
+        <span class="custom-control-description"></span>
+        </label>
+      </td>
+      <td>
+        <label class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input">
+        <span class="custom-control-indicator"></span>
+        <span class="custom-control-description"></span>
+        </label>
+      </td>
+      <td>
+        <label class="custom-control custom-checkbox">
+        <input type="checkbox" class="custom-control-input">
+        <span class="custom-control-indicator"></span>
+        <span class="custom-control-description"></span>
+        </label>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+    <div class="col-md-5">
+      <label for="actividades">Actividades Desarrolladas:</label>
+      <textarea name="actividades" rows="8" cols="80"></textarea>
+    </div>
+    <div class="col-md-5">
+      <label for="objetivo">Objetivo de Aprendizaje:</label>
+      <textarea name="objetivo" rows="4" cols="80"></textarea>
+    </div>
+    <div class="col-md-5">
+      <label for="requerimientos">Requerimientos:</label>
+      <textarea name="requerimientos" rows="4" cols="80"></textarea>
+    </div><br>
+
+
+    </div>
+
+  </form>
